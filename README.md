@@ -1,2 +1,2 @@
 # terraform-bulk-upload
-Bulk DynamoDB Data Load for Terraform
+Automatically Inbokes an external script to load data into DynamoDB Tables at Build time
