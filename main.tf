@@ -14,4 +14,7 @@ resource "aws_dynamodb_table" "basic-dynamodb-table" {
     type = "S"
   }
 
+  provisioner "local-exec" {
+    command = "bash populate_db.sh"
+  }
 }
